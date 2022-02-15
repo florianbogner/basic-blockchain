@@ -1,0 +1,19 @@
+{
+  "name": "basic-blockchain",
+  "version": "1.0.0",
+  "description": "A simple blockchain implementation for experiments",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "rimraf ./build && tsc"
+  },
+  "author": "Florian Bogner",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.17",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  }
+}
